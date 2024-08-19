@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    /* font-size: 24px;
+    margin: 0; */
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0 0 0 1px;
+    text-transform: uppercase;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #dc3a17;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #777;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #dc3a17;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-family: "Monospace", sans-serif;
+    display: block;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: auto;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    padding: 0 20px;
+}
+
+.product-card button {
+    background-color: #dc3a17;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.strikethrough {
+    color: red;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
